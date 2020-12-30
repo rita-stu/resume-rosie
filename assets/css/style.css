@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/* ------------------------------------- colors */
+.bg-color-name-title {background-color: #777777;}
+.bg-color-three-reasons {background-color: #fff;}
+.ui-menu-color-home {background-color: #eba263;}
+.ui-menu-color-resume {background-color: #9e54bb;}
+.ui-menu-color-contact {background-color: #599fce;}
+.ui-menu-color-download {background-color: #505050;}
+/* special padding, margins */
+h1, h2, h3, h4 {margin: 0;}
+.uppercase {text-transform: uppercase;}
+.general-sub {color: #fafafa; font-weight: 300; font-family: "Exo", sans-serif;}
+.inline-block {display: inline-block;}
+.row-table {display: table;}
+.section-column {display: table-cell; padding: 0 30px 30px; float: none;}
+.section-heading {font-weight: 300; font-family: "Exo", sans-serif; margin: 25px 0 40px 0;}
+/* ------------------------------------- heading */
+header {margin: 0;}
+.heading {margin-left: 50px;}
+.logo {background: url("../img/rosie.png"); background-position: center; background-repeat: no-repeat; background-size: cover;min-height: 360px;transition: all .5s ease-in-out;-moz-transition: all .5s ease-in-out;-webkit-transition: all .5s ease-in-out;}
+.name {color: #fff;font-size: 46px;font-weight: 300;font-family: "Exo", sans-serif;margin-top: 50px;}
+.title {color: #fff;font-size: 28px;font-weight: 400;font-family: "Roboto", sans-serif;margin: 20px 0 90px 0;}
+.list-inline-item:not(:last-child) {margin: 0;}
+.menucontainer {font-size: 0;}
+#nav {margin: 0;}
+#nav li {font-size: 14px;padding: 0;}
+.menuitem {height: 120px; text-align: center; padding: 0;}
+.menuitem a {color: #fff;width: 100%;height: 120px;text-decoration: none;}
+/* .menuitem a:hover {color: #710886;} */
+.menuitem a i {color: #fafafa;display: block;padding-top: 22px;font-size: 26px;}
+.menuitem span {display: block;width: 100%;padding-top: 5px;text-align: center;text-transform: uppercase;letter-spacing: 2px;font-weight: 300; font-size: 14px;}
+/* -------------------------------------- hover.css */
+.hvr-sweep-to-bottom:before {background: rgba(0, 0, 0, 0.2);height: 120px;}
+/* .container-fluid  */
+/* ------------------------------------- footer */
+footer {background-color: #525252; color: #fafafa; min-height: 120px; margin: 0;}
