@@ -31,6 +31,9 @@ header {margin: 0;}
 .menuitem span {display: block;width: 100%;padding-top: 5px;text-align: center;text-transform: uppercase;letter-spacing: 2px;font-weight: 300; font-size: 14px;}
 /* -------------------------------------- hover.css */
 .hvr-sweep-to-bottom:before {background: rgba(0, 0, 0, 0.2);height: 120px;}
+/* ------------------------------------- three reasons */
+.three-reasons-icon {font-size: 36px; color: #eba263;}
+.three-reasons-heading {margin-bottom: 15px;}
 /* .container-fluid  */
 /* ------------------------------------- footer */
 footer {background-color: #525252; color: #fafafa; min-height: 120px; margin: 0;}
