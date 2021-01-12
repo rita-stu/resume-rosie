@@ -7,6 +7,7 @@
 .ui-menu-color-home {background-color: #eba263;}
 .ui-menu-color-resume {background-color: #9e54bb;}
 .ui-menu-color-contact {background-color: #599fce;}
+.bg-color-contact {background-color: #fff;}
 .ui-menu-color-download {background-color: #505050;}
 /* special padding, margins */
 h1, h2, h3, h4 {margin: 0;}
@@ -52,9 +53,14 @@ header {margin: 0;}
 .timeline-item {padding: 4em, 2em, 0em, 2em; position: relative; color: #fafafa; border-left: 1px solid;}
 .timeline-item p {padding: 0; margin: 0;}
 .timeline-item:before {content: attr(data-dates); position: absolute; left: 2.5em; top: 3em; display: block; font-family: "Exo", sans serif; font-weight: 500; font-size: 0.8em; padding: 0; margin: 0;}
-.timeline-item:after {width: 12px; height: 12px; display: block; position: absolute; top: 2.4em; lefft: -6px; border-radius: 12px; content: ''; background-color: #fafafa;}
+.timeline-item:after {width: 12px; height: 12px; display: block; position: absolute; top: 2.4em; left: -6px; border-radius: 12px; content: ''; background-color: #fafafa;}
 .history-items {margin-bottom: 30px;}
-
+/* -------------------------------------contact */
+.contact-heading {font-weight: 300; font-family: "Exo", sans serif; margin: 25px 0 20px 0;}
+.center-form {padding-top: 10px; margin: 0 auto; max-width: 70%;}
+.button[type="submit"] {margin: 15px 0 20px 0; color: #fafafa; background-color: e84610;}
+/* ------------------------------------- media queries */
+.center-form {padding-top: 30px; min-height: 240px; margin: 0 auto; max-width: 50%;}
 /* ------------------------------------- footer */
 footer {background-color: #525252; color: #fafafa; min-height: 120px; margin: 0;}
 .cv-pdf i {color: #fafafa; text-align: center; font-size: 20px; padding-left: 5px; transition: all 0.35s ease-in-out; -moz-transition: all 0.35s ease-in-out; -webkit-transition: all 0.35s ease-in-out; -o-transition: all 0.35s ease-in-out;}
