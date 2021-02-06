@@ -1,6 +1,6 @@
 # Learning BootStrap ([v4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/))
 
-## Goal: [Rosie's resume](rita-stu.github.io/resume-rosie)
+## Goal: [Rosie's resume](https://rita-stu.github.io/resume-rosie/)
 Create resume-style website incorporating Bootstrap features.
 
 The website should contain a home (index) page, a resumé page, a contact page and a download page (for downloadable CV in [pdf](https://get.adobe.com/reader/otherversions/) format).
