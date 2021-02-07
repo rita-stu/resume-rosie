@@ -24,15 +24,21 @@ __The following features are incorporated__:
 4. [FontAwesome](https://fontawesome.com/) icons
 
 
-## <a name="bugs">Bugs</a>
+## Bugs
 
-1. __/resume.html__: Work History section displays incorrectly ([image](rita-stu.github.io/bugs/WorkHistory.png))
+<a name="bugs">1.</a> __[resume page](https://rita-stu.github.io/resume-rosie/resume.html)__: Work History section displays incorrectly ([image](rita-stu.github.io/bugs/WorkHistory.png))
 * dates display correctly
 * left border (the actual line of timeline) and bullets display correctly
-* place of employment (h4) and role (p) not doing what they're told.
-* 
+* place of employment (h4) and role (p) not doing what they're supposed to do.
 
-<a name="fix">__Fixes__</a>
+2. __[CSS Validation Service](https://jigsaw.w3.org/css-validator/)__ result: 3 errors
+   1. button background-color invalid (e84610) – missing: #
+   2. unnecessary script
+   3. -webkit-transform: "unknown vendor extension"
+
+3. __[W3C Markup Validation Service](https://validator.w3.org/)__ result: Document checking completed. No errors or warnings to show.
+
+__<a name="fix">Fixes__</a>
 - __.timeline-item p__: changed padding-left to 1.8em (previously: 0)
 - added: __.timeline-item h4__ {font-size: 1.3em; padding: 2em 0 0 1.5em;}
 - __.history-heading__  changed bottom-margin to 20px (previously: 50px)
@@ -43,17 +49,25 @@ __The following features are incorporated__:
 
 
 ## Testing
-This was a tutored project; followed all tutorial instruction. Despite using the exact code as tutorial, initial testing of completed site showed __/resume.html__ incorrectly displayed (see __[Bugs](#bugs)__ above)
+Initial testing of completed __resume.html__: History section displayed incorrectly (see __[Bugs](#bugs)__ section above)
 
 * After testing again, the above __[Fixes](#fix)__ corrected the issue.
 * Responsive works well on all device sizes (400px to 800px).
 * Tested all links to all pages from all pages: all work correctly.
 * Not yet proficient using Developer Debugging tools – to be done at a later stage
-* CSS validation: 
+* CSS validation: fixed two of three issues
+  1. corrected button bg-color
+  2. removed unwanted script
+  3. left -webkit-transform; in style.css. Not sure yet why/how page is affected (sweep-over nav links no longer work).
+  * Ran validator again. Result: Congratulations! No Error Found.
+* HTML Validation: Document checking completed. No errors or warnings to show.
+
 
 
 ## Deployment
-Initial commit: problem, as with ms1 two days ago, github doesn't update immediately after commits (despite deployment). Two days ago, commits took up to __three hours__ to respond/update which meant changes could not be determined or new issues checked.
+__Initial commit__: problem, as with ms1 two days ago, github doesn't update immediately after commits (despite deployment). Two days ago, commits took up to __three hours__ to respond/update which meant changes could not be determined or new issues checked.
+
+(24 hours later and this current version had not committed.)
 
 
 
